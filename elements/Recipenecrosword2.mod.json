@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Necroblock"
+      },
+      {
+        "value": "CUSTOM:Necropearl"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Necroblock"
+      },
+      {
+        "value": "CUSTOM:Necropearl"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Obsidianstick"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Necrosword"
+    },
+    "name": "recipenecrosword_2",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "group": "grass_weapons",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    "4 "
+  ],
+  "key": {
+    "0": {
+      "item": "grass_weapons:compresseddirt"
+    },
+    "1": {
+      "item": "grass_weapons:compresseddirt"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    },
+    "3": {
+      "item": "grass_weapons:compresseddirt"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "grass_weapons:dirtaxe",
+    "count": 1
+  }
+}

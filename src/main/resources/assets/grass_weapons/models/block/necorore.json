@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "grass_weapons:blocks/necor_ore",
+    "up": "grass_weapons:blocks/necor_ore",
+    "north": "grass_weapons:blocks/necor_ore",
+    "east": "grass_weapons:blocks/necor_ore",
+    "south": "grass_weapons:blocks/necor_ore",
+    "west": "grass_weapons:blocks/necor_ore",
+    "particle": "grass_weapons:blocks/necor_ore"
+  }
+}

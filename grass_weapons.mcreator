@@ -1,0 +1,736 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Dirtsword",
+      "type": "tool",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dirtsword"
+    },
+    {
+      "name": "DirtswordRightClickedInAir",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dirtsword_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DirtswordRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dirtsword_right_clicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Compresseddirt",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "compresseddirt"
+    },
+    {
+      "name": "Recipedirtysword",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "recipedirtysword"
+    },
+    {
+      "name": "Recipecompresseddirt",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "recipecompresseddirt"
+    },
+    {
+      "name": "Lightningcobblestone",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lightningcobblestone"
+    },
+    {
+      "name": "Orelightstone",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "orelightstone"
+    },
+    {
+      "name": "Sharpoflightning",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sharpoflightning"
+    },
+    {
+      "name": "Lightningsharp",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lightningsharp"
+    },
+    {
+      "name": "LightningdirtswordLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lightningdirtsword_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Lightningdirtsword",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lightningdirtsword"
+    },
+    {
+      "name": "Lightningdirtswordrecipe",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lightningdirtswordrecipe"
+    },
+    {
+      "name": "Fulllightningsword",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fulllightningsword"
+    },
+    {
+      "name": "Blockoflightningsharp",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blockoflightningsharp"
+    },
+    {
+      "name": "Lightningstick",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lightningstick"
+    },
+    {
+      "name": "RecipeFulllightningsword",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "recipe_fulllightningsword"
+    },
+    {
+      "name": "Recipelightningstick",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "recipelightningstick"
+    },
+    {
+      "name": "Dirtpickaxe",
+      "type": "tool",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dirtpickaxe"
+    },
+    {
+      "name": "FulllightningswordLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fulllightningsword_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Repicedirtpickaxe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "repicedirtpickaxe"
+    },
+    {
+      "name": "LightningdirtpickaxeRightClickedInAir",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lightningdirtpickaxe_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Lightningdirtpickaxe",
+      "type": "tool",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lightningdirtpickaxe"
+    },
+    {
+      "name": "RecipeLightningdirtpickaxe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "recipe_lightningdirtpickaxe"
+    },
+    {
+      "name": "Fulllightningpickaxe",
+      "type": "tool",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fulllightningpickaxe"
+    },
+    {
+      "name": "Fulllightningpickaxerecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fulllightningpickaxerecipe"
+    },
+    {
+      "name": "Dirtshovel",
+      "type": "tool",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dirtshovel"
+    },
+    {
+      "name": "Recipedirtshovel",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "recipedirtshovel"
+    },
+    {
+      "name": "Lightningdirtshovel",
+      "type": "tool",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lightningdirtshovel"
+    },
+    {
+      "name": "Recipelightningdirtshovel",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "recipelightningdirtshovel"
+    },
+    {
+      "name": "Fulllightningshovel",
+      "type": "tool",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fulllightningshovel"
+    },
+    {
+      "name": "Recipefulllightningshovel",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "recipefulllightningshovel"
+    },
+    {
+      "name": "Dirtaxe",
+      "type": "tool",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dirtaxe"
+    },
+    {
+      "name": "Lightningdirtaxe",
+      "type": "tool",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lightningdirtaxe"
+    },
+    {
+      "name": "Fulllightningaxe",
+      "type": "tool",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fulllightningaxe"
+    },
+    {
+      "name": "Recipedirtaxe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "recipedirtaxe"
+    },
+    {
+      "name": "Recipedirtaxe2",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "recipedirtaxe_2"
+    },
+    {
+      "name": "Recipelightningdirtaxe",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "recipelightningdirtaxe"
+    },
+    {
+      "name": "Recipefulllightningaxe",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "recipefulllightningaxe"
+    },
+    {
+      "name": "Recipefulllightningaxe2",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "recipefulllightningaxe_2"
+    },
+    {
+      "name": "Blazeingot",
+      "type": "item",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blazeingot"
+    },
+    {
+      "name": "Blazesword",
+      "type": "tool",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blazesword"
+    },
+    {
+      "name": "Sphereblazepowder",
+      "type": "item",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sphereblazepowder"
+    },
+    {
+      "name": "Recipesphereblazepowder",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "recipesphereblazepowder"
+    },
+    {
+      "name": "Recipeblazeingot",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "recipeblazeingot"
+    },
+    {
+      "name": "Obsidianstick",
+      "type": "item",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidianstick"
+    },
+    {
+      "name": "Recipeblazesword",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "recipeblazesword"
+    },
+    {
+      "name": "RecipeObsidianstick",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "recipe_obsidianstick"
+    },
+    {
+      "name": "Recipeblocklightning",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "recipeblocklightning"
+    },
+    {
+      "name": "Netherorelightkrystall",
+      "type": "block",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherorelightkrystall"
+    },
+    {
+      "name": "Lightninggrass",
+      "type": "block",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lightninggrass"
+    },
+    {
+      "name": "Lightningbiomestone",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lightningbiomestone"
+    },
+    {
+      "name": "Lightningparticle",
+      "type": "particle",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lightningparticle"
+    },
+    {
+      "name": "Lightningstem",
+      "type": "block",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lightningstem"
+    },
+    {
+      "name": "Lightningbranch",
+      "type": "block",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lightningbranch"
+    },
+    {
+      "name": "Lightningbiome",
+      "type": "biome",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lightningbiome"
+    },
+    {
+      "name": "Necropearl",
+      "type": "item",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "necropearl"
+    },
+    {
+      "name": "Necorore",
+      "type": "block",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "necorore"
+    },
+    {
+      "name": "Necroblock",
+      "type": "block",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "necroblock"
+    },
+    {
+      "name": "Recipenecroblock",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "recipenecroblock"
+    },
+    {
+      "name": "Necrosword",
+      "type": "tool",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "necrosword"
+    },
+    {
+      "name": "Recipenecrosword2",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "recipenecrosword_2"
+    },
+    {
+      "name": "Recipenecrosword",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "recipenecrosword"
+    },
+    {
+      "name": "Ancient",
+      "type": "mob",
+      "sortid": 51,
+      "compiles": false,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ancient"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "ru_ru": {
+      "item.grass_weapons.obsidianstick": "Палка из обсидиана",
+      "item.grass_weapons.blazesword": "Меч из Блейза",
+      "block.grass_weapons.necorore": "Нэко-руда",
+      "block.grass_weapons.lightningbiomestone": "Электрическая земля",
+      "block.grass_weapons.blockoflightningsharp": "Блок электрического кристалла",
+      "item.grass_weapons.lightningdirtsword": "Электрический земляной меч",
+      "item.grass_weapons.fulllightningshovel": "Лопата из электрического кристалла",
+      "item.grass_weapons.lightningdirtshovel": "Эектрическая земляная лопата",
+      "item.grass_weapons.lightningdirtpickaxe": "Электрическая земляная кирка",
+      "block.grass_weapons.lightningcobblestone": "Электрический булыжник",
+      "entity.grass_weapons.ancient": "Lightning slime",
+      "block.grass_weapons.compresseddirt": "Сжатая земля",
+      "block.grass_weapons.lightningbranch": "Электрическая листва",
+      "block.grass_weapons.netherorelightkrystall": "Адская руда электрического кристалла",
+      "block.grass_weapons.lightningstem": "Электрическая древесина",
+      "item.grass_weapons.fulllightningpickaxe": "Кирка из электрического кристалла",
+      "block.grass_weapons.lightninggrass": "Электрическая земля",
+      "biome.grass_weapons.lightningbiome": "Биом электричества",
+      "item.grass_weapons.lightningstick": "Электрическая палка",
+      "item.grass_weapons.dirtpickaxe": "Земляная кирка",
+      "item.grass_weapons.dirtsword": "Земляной  меч",
+      "item.grass_weapons.dirtaxe": "Земляной топор",
+      "item.grass_weapons.blazeingot": "Слиток блейза",
+      "item.grass_weapons.fulllightningaxe": "Топор из электрического кристалла",
+      "item.grass_weapons.necrosword": "Меч из Нэкро",
+      "item.grass_weapons.sharpoflightning": "Электрический кристалл",
+      "item.grass_weapons.dirtshovel": "Земляная лопата",
+      "item.grass_weapons.sphereblazepowder": "Комок порошка блейза",
+      "item.grass_weapons.necropearl": "Нэкро-жемчуг",
+      "item.grass_weapons.lightningdirtaxe": "Электрический земляной меч",
+      "block.grass_weapons.necroblock": "Блок из Нэкро-жемчуга",
+      "item.grass_weapons.ancient_spawn_egg": "Lightning slime Spawn Egg",
+      "item.grass_weapons.fulllightningsword": "Меч из электрического кристалла",
+      "block.grass_weapons.orelightstone": "Руда электрического кристалла"
+    },
+    "en_us": {
+      "item.grass_weapons.obsidianstick": "Obsidianstick",
+      "item.grass_weapons.blazesword": "Blazesword",
+      "block.grass_weapons.necorore": "Necorore",
+      "block.grass_weapons.lightningbiomestone": "Lightning dirt",
+      "block.grass_weapons.blockoflightningsharp": "Blockoflightningsharp",
+      "item.grass_weapons.lightningdirtsword": "Lightningdirtsword",
+      "item.grass_weapons.fulllightningshovel": "Fulllightningshovel",
+      "item.grass_weapons.lightningdirtshovel": "Lightningdirtshovel",
+      "item.grass_weapons.lightningdirtpickaxe": "Lightningdirtpickaxe",
+      "block.grass_weapons.lightningcobblestone": "Lightningcobblestone",
+      "entity.grass_weapons.ancient": "Древний",
+      "block.grass_weapons.compresseddirt": "Compresseddirt",
+      "block.grass_weapons.lightningbranch": "Lightningbranch",
+      "block.grass_weapons.netherorelightkrystall": "Netherorelightkrystall",
+      "block.grass_weapons.lightningstem": "Lightningstem",
+      "item.grass_weapons.fulllightningpickaxe": "Full lightning pickaxe",
+      "block.grass_weapons.lightninggrass": "Lightninggrass",
+      "biome.grass_weapons.lightningbiome": "Lightning biome",
+      "item.grass_weapons.lightningstick": "Lightning stick",
+      "item.grass_weapons.dirtpickaxe": "Dirtpickaxe",
+      "item.grass_weapons.dirtsword": "Dirty sword",
+      "item.grass_weapons.dirtaxe": "Dirtaxe",
+      "item.grass_weapons.blazeingot": "Blaze ingot",
+      "item.grass_weapons.fulllightningaxe": "Fulllightningaxe",
+      "item.grass_weapons.necrosword": "Necrosword",
+      "item.grass_weapons.sharpoflightning": "Sharp of lightning",
+      "item.grass_weapons.dirtshovel": "Dirtshovel",
+      "item.grass_weapons.sphereblazepowder": "Sphere blaze powder",
+      "item.grass_weapons.necropearl": "Necro pearl",
+      "item.grass_weapons.lightningdirtaxe": "Lightningdirtaxe",
+      "block.grass_weapons.necroblock": "Necroblock",
+      "item.grass_weapons.ancient_spawn_egg": "Древний Spawn Egg",
+      "item.grass_weapons.fulllightningsword": "Fulllightningsword",
+      "block.grass_weapons.orelightstone": "Orelightstone"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "grass_weapons",
+    "modName": "Grass weapons",
+    "version": "1.0.0",
+    "author": "Роман, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.grassweapons",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100118117
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "grass_weapons:blocks/lightning_cobblestone",
+    "up": "grass_weapons:blocks/lightning_cobblestone",
+    "north": "grass_weapons:blocks/lightning_cobblestone",
+    "east": "grass_weapons:blocks/lightning_cobblestone",
+    "south": "grass_weapons:blocks/lightning_cobblestone",
+    "west": "grass_weapons:blocks/lightning_cobblestone",
+    "particle": "grass_weapons:blocks/lightning_cobblestone"
+  }
+}

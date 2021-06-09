@@ -1,0 +1,39 @@
+{
+  "_fv": 18,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "lightning_dirt_shovel",
+    "customModelName": "Normal",
+    "name": "Lightningdirtshovel",
+    "specialInfo": [
+      "Это заряженная земляная лопата."
+    ],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Spade",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 2.0,
+    "usageCount": 350,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Sharpoflightning"
+      },
+      {
+        "value": "Blocks.DIRT#0"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "LightningdirtpickaxeRightClickedInAir"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "grass_weapons:blocks/lightning_tree_top_bottom",
+    "up": "grass_weapons:blocks/lightning_tree_top_bottom",
+    "north": "grass_weapons:blocks/lightnin_stem",
+    "east": "grass_weapons:blocks/lightnin_stem",
+    "south": "grass_weapons:blocks/lightnin_stem",
+    "west": "grass_weapons:blocks/lightnin_stem",
+    "particle": "grass_weapons:blocks/lightning_tree_top_bottom"
+  }
+}

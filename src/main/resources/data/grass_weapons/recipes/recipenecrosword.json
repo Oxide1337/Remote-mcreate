@@ -1,0 +1,30 @@
+{
+  "group": "grass_weapons",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "grass_weapons:necropearl"
+    },
+    "1": {
+      "item": "grass_weapons:necroblock"
+    },
+    "2": {
+      "item": "grass_weapons:necropearl"
+    },
+    "3": {
+      "item": "grass_weapons:necroblock"
+    },
+    "5": {
+      "item": "grass_weapons:obsidianstick"
+    }
+  },
+  "result": {
+    "item": "grass_weapons:necrosword",
+    "count": 1
+  }
+}

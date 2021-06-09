@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "grass_weapons:blocks/necro_block",
+    "up": "grass_weapons:blocks/necro_block",
+    "north": "grass_weapons:blocks/necro_block",
+    "east": "grass_weapons:blocks/necro_block",
+    "south": "grass_weapons:blocks/necro_block",
+    "west": "grass_weapons:blocks/necro_block",
+    "particle": "grass_weapons:blocks/necro_block"
+  }
+}

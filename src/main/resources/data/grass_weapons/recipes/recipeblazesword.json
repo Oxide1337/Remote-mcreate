@@ -1,0 +1,30 @@
+{
+  "group": "grass_weapons",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "grass_weapons:blazeingot"
+    },
+    "3": {
+      "item": "grass_weapons:blazeingot"
+    },
+    "4": {
+      "item": "grass_weapons:obsidianstick"
+    },
+    "5": {
+      "item": "grass_weapons:blazeingot"
+    },
+    "7": {
+      "item": "grass_weapons:obsidianstick"
+    }
+  },
+  "result": {
+    "item": "grass_weapons:blazesword",
+    "count": 1
+  }
+}

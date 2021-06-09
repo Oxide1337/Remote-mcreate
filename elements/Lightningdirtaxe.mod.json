@@ -1,0 +1,33 @@
+{
+  "_fv": 18,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "lightning_dirt_axe",
+    "customModelName": "Normal",
+    "name": "Lightningdirtaxe",
+    "specialInfo": [
+      "Это элктрический земляной топор."
+    ],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 1,
+    "efficiency": 5.0,
+    "attackSpeed": 0.9,
+    "enchantability": 5,
+    "damageVsEntity": 6.0,
+    "usageCount": 600,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Sharpoflightning"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

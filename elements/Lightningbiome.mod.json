@@ -1,0 +1,103 @@
+{
+  "_fv": 18,
+  "_type": "biome",
+  "definition": {
+    "name": "Lightning biome",
+    "groundBlock": {
+      "value": "CUSTOM:Lightninggrass"
+    },
+    "undergroundBlock": {
+      "value": "CUSTOM:Lightningbiomestone"
+    },
+    "grassColor": {
+      "value": -4479945,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -2640620,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -5595811,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -4019130,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": ""
+    },
+    "additionsSound": {
+      "value": ""
+    },
+    "music": {
+      "value": ""
+    },
+    "moodSound": {
+      "value": ""
+    },
+    "moodSoundDelay": 6000,
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "particlesProbability": 0.5,
+    "biomeCategory": "JUNGLE",
+    "parent": {
+      "value": "CUSTOM:Lightningbiome"
+    },
+    "rainingPossibility": 0.5,
+    "temperature": 0.5,
+    "baseHeight": 0.5,
+    "heightVariation": 0.4,
+    "biomeType": "WARM",
+    "spawnBiome": true,
+    "biomeWeight": 20,
+    "biomeDictionaryTypes": [
+      "FOREST"
+    ],
+    "grassPerChunk": 4,
+    "seagrassPerChunk": 1,
+    "flowersPerChunk": 4,
+    "mushroomsPerChunk": 0,
+    "bigMushroomsChunk": 0,
+    "sandPatchesPerChunk": 0,
+    "gravelPatchesPerChunk": 0,
+    "reedsPerChunk": 0,
+    "cactiPerChunk": 0,
+    "treesPerChunk": 2,
+    "vanillaTreeType": "Birch trees",
+    "treeType": 1,
+    "minHeight": 8,
+    "maxWaterDepth": 0,
+    "treeStem": {
+      "value": "CUSTOM:Lightningstem"
+    },
+    "treeBranch": {
+      "value": "CUSTOM:Lightningbranch"
+    },
+    "treeVines": {
+      "value": ""
+    },
+    "treeFruits": {
+      "value": ""
+    },
+    "spawnStronghold": false,
+    "spawnMineshaft": false,
+    "spawnPillagerOutpost": false,
+    "villageType": "savanna",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "oceanRuinType": "NONE",
+    "defaultFeatures": [
+      "Caves",
+      "Ores"
+    ],
+    "spawnEntries": []
+  }
+}

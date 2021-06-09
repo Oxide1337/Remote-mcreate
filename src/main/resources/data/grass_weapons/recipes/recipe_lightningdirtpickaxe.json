@@ -1,0 +1,32 @@
+{
+  "group": "grass_weapons",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "grass_weapons:sharpoflightning"
+    },
+    "1": {
+      "item": "grass_weapons:sharpoflightning"
+    },
+    "2": {
+      "item": "grass_weapons:sharpoflightning"
+    },
+    "3": {
+      "item": "grass_weapons:sharpoflightning"
+    },
+    "4": {
+      "item": "grass_weapons:dirtpickaxe"
+    },
+    "5": {
+      "item": "grass_weapons:sharpoflightning"
+    }
+  },
+  "result": {
+    "item": "grass_weapons:lightningdirtpickaxe",
+    "count": 1
+  }
+}

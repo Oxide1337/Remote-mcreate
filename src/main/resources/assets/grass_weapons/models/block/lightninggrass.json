@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "grass_weapons:blocks/bokovaya_storona_travi_lightning",
+    "up": "grass_weapons:blocks/lightning_biome_grass",
+    "north": "grass_weapons:blocks/bokovaya_storona_travi_lightning",
+    "east": "grass_weapons:blocks/bokovaya_storona_travi_lightning",
+    "south": "grass_weapons:blocks/bokovaya_storona_travi_lightning",
+    "west": "grass_weapons:blocks/bokovaya_storona_travi_lightning",
+    "particle": "grass_weapons:blocks/bokovaya_storona_travi_lightning"
+  }
+}

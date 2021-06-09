@@ -1,0 +1,42 @@
+{
+  "group": "grass_weapons",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "grass_weapons:necropearl"
+    },
+    "1": {
+      "item": "grass_weapons:necropearl"
+    },
+    "2": {
+      "item": "grass_weapons:necropearl"
+    },
+    "3": {
+      "item": "grass_weapons:necropearl"
+    },
+    "4": {
+      "item": "grass_weapons:necropearl"
+    },
+    "5": {
+      "item": "grass_weapons:necropearl"
+    },
+    "6": {
+      "item": "grass_weapons:necropearl"
+    },
+    "7": {
+      "item": "grass_weapons:necropearl"
+    },
+    "8": {
+      "item": "grass_weapons:necropearl"
+    }
+  },
+  "result": {
+    "item": "grass_weapons:necroblock",
+    "count": 1
+  }
+}

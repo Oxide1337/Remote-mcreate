@@ -1,0 +1,30 @@
+{
+  "group": "grass_weapons",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "grass_weapons:blockoflightningsharp"
+    },
+    "1": {
+      "item": "grass_weapons:blockoflightningsharp"
+    },
+    "2": {
+      "item": "grass_weapons:sharpoflightning"
+    },
+    "4": {
+      "item": "grass_weapons:lightningstick"
+    },
+    "7": {
+      "item": "grass_weapons:lightningstick"
+    }
+  },
+  "result": {
+    "item": "grass_weapons:fulllightningaxe",
+    "count": 1
+  }
+}

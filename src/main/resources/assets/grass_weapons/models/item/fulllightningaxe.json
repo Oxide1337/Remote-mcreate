@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "grass_weapons:items/full_lightning_axe"
+  }
+}

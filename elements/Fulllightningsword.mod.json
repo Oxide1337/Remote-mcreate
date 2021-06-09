@@ -1,0 +1,36 @@
+{
+  "_fv": 18,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "lightning_sword",
+    "customModelName": "Normal",
+    "name": "Fulllightningsword",
+    "specialInfo": [
+      "Это меч полностью состоящий из электро кристаллов."
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 2.4,
+    "enchantability": 15,
+    "damageVsEntity": 6.0,
+    "usageCount": 1200,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Sharpoflightning"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "FulllightningswordLivingEntityIsHitWithTool"
+    }
+  }
+}

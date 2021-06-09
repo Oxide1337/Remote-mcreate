@@ -1,0 +1,7 @@
+{
+  "parent": "grass_weapons:custom/model",
+  "textures": {
+    "0": "grass_weapons:blocks/123",
+    "particle": "grass_weapons:items/necro_sword"
+  }
+}

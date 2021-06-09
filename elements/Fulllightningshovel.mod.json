@@ -1,0 +1,36 @@
+{
+  "_fv": 18,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "full_lightning_shovel",
+    "customModelName": "Normal",
+    "name": "Fulllightningshovel",
+    "specialInfo": [
+      "Это лопата из электрических кристаллов."
+    ],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Spade",
+    "harvestLevel": 1,
+    "efficiency": 7.0,
+    "attackSpeed": 1.4000000000000001,
+    "enchantability": 8,
+    "damageVsEntity": 3.0,
+    "usageCount": 1100,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Sharpoflightning"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "LightningdirtpickaxeRightClickedInAir"
+    }
+  }
+}

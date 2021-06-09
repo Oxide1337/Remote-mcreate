@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "grass_weapons:blocks/stone_lightning_biome",
+    "up": "grass_weapons:blocks/stone_lightning_biome",
+    "north": "grass_weapons:blocks/stone_lightning_biome",
+    "east": "grass_weapons:blocks/stone_lightning_biome",
+    "south": "grass_weapons:blocks/stone_lightning_biome",
+    "west": "grass_weapons:blocks/stone_lightning_biome",
+    "particle": "grass_weapons:blocks/stone_lightning_biome"
+  }
+}

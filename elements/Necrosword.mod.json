@@ -1,0 +1,33 @@
+{
+  "_fv": 18,
+  "_type": "tool",
+  "definition": {
+    "renderType": 1,
+    "texture": "necro_sword",
+    "customModelName": "model:default",
+    "name": "Necrosword",
+    "specialInfo": [
+      "Меч из Нэкро-жемчуга."
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 3,
+    "efficiency": 4.0,
+    "attackSpeed": 1.9,
+    "enchantability": 11,
+    "damageVsEntity": 6.0,
+    "usageCount": 1000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Necropearl"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}
